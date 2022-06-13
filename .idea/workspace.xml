@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="152b714c-b695-4026-8330-0c4329b38b66" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/GuiScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/GuiScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/MainMenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/MainMenuPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gui/PlayPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gui/PlayPanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration name="GuiScreen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -62,7 +60,7 @@
       <workItem from="1654506445358" duration="372000" />
       <workItem from="1654852827911" duration="1228000" />
       <workItem from="1655042201632" duration="4654000" />
-      <workItem from="1655086522420" duration="788000" />
+      <workItem from="1655086522420" duration="2171000" />
     </task>
     <servers />
   </component>
