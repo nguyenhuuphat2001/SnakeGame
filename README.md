@@ -15,7 +15,7 @@
 ## Introduction
 - **Snake Game** is an application remake classic game same name. Eat the food but don't hit the walls or your own tail! <br />
 
-<img width="400" alt="image1" src="assets/MenuImage.png" hspace="20"><img width="400" alt="image2" src="assets/PlayImage.png">
+<img width="350" alt="image1" src="assets/MenuImage.png" hspace="20"><img width="350" alt="image2" src="assets/PlayImage.png">
 
 
 ## Video Demo
