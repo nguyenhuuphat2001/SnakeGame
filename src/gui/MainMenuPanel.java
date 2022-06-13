@@ -40,7 +40,14 @@ public class MainMenuPanel extends JPanel {
 
         JLabel lblSpace = new JLabel("");
         panelCenter.add(lblSpace);
-        JButton btnLevel = new JButton("Easy");
+        JButton btnLevel = new JButton();
+        if (GuiScreen.level == GuiScreen.LEVEL.EASY) {
+            btnLevel.setText("Easy");
+        } else if (GuiScreen.level == GuiScreen.LEVEL.NORMAL) {
+            btnLevel.setText("Normal");
+        } else if (GuiScreen.level == GuiScreen.LEVEL.HARD) {
+            btnLevel.setText("Hard");
+        }
         btnLevel.setFont(new Font("Arial",1,GuiScreen.ROWS*GuiScreen.CELL_SIZE/25));
         panelCenter.add(btnLevel);
 

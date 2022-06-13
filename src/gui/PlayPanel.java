@@ -236,8 +236,14 @@ public class PlayPanel extends JPanel{
             btnStop.setEnabled(true);
             add(btnStop);
 
-            btnMute = new JButton(iconSound);
+            btnMute = new JButton();
             btnMute.setToolTipText("Mute");
+            if(SoundEffect.volume == SoundEffect.Volume.MUTE) {
+                btnMute.setIcon(iconMuted);
+            }else {
+                btnMute.setIcon(iconSound);
+            }
+
             btnMute.setCursor(new Cursor(Cursor.HAND_CURSOR));
             btnMute.setEnabled(true);
             add(btnMute);
